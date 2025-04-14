@@ -3,10 +3,10 @@ import React from 'react';
 import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
 
 // 2. Import your page components (adjust paths if needed)
-import Homepage from './pages/Homepage';
-import Aboutus from './pages/Aboutus';
-import Contactpage from './pages/Contactpage';
-import Coursespage from './pages/Coursespage';
+import Homepage from './Components/Homepage';
+import Aboutus from './Components/Aboutus';
+import Contactpage from './Components/Contactpage';
+import Coursespage from './Components/Coursespage';
 
 // Optional: Import a CSS file for basic styling
 import './App.css';
