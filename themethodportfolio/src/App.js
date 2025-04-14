@@ -16,6 +16,7 @@ function App() {
     // 3. Wrap your entire application with BrowserRouter (aliased as Router)
     <Router>
       <div>
+        <h1> HOMEPAGE</h1>
         {/* 4. Create Navigation Links using the Link component */}
         <nav>
           <ul>
