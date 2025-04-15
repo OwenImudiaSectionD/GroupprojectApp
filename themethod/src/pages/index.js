@@ -12,7 +12,7 @@ export default function Homepage() {
   return (
     <div className="container">
       <h1>{greeting}</h1>
-      {notification && <p style={{ color: 'purple' }}>{notification}</p>}
+      {notification && <p>{notification}</p>}
       <button onClick={changeGreeting}>Update Greeting</button>
     </div>
   );
