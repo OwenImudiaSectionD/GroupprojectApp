@@ -1,3 +1,10 @@
+## Google Slides Link
+https://docs.google.com/presentation/d/1m5AhfV1p1nokAeu2FlOkn3lKnhZaYFXE7GF9wqxdzQE/edit?slide=id.g31be7055107_0_39#slide=id.g31be7055107_0_39
+## Screenshots
+https://docs.google.com/document/d/1VAytK67BHuvZBVG_D7k6tCUrKhD2BVjJUN3yiLCUM2A/edit?usp=sharing
+
+## Project Info
+
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/pages/api-reference/create-next-app).
 
 ## Getting Started
