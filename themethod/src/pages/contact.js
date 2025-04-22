@@ -1,11 +1,13 @@
 import React, { useState } from 'react';
 
-export default function ContactPage({ notification, updateNotification }) {
+export default function ContactPage() {
   const [formData, setFormData] = useState({
     name: '',
     email: '',
     message: ''
   });
+
+  const [notification, setNotification] = useState('');
 
   const handleChange = (e) => {
     setFormData({
@@ -16,7 +18,8 @@ export default function ContactPage({ notification, updateNotification }) {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    updateNotification("Thank you for reaching out! We'll get back to you shortly.");
+    setNotification("Thank you for reaching out! We'll get back to you shortly.");
+    setFormData({ name: '', email: '', message: '' });
   };
 
   return (
