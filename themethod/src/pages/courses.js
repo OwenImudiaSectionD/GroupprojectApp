@@ -19,7 +19,7 @@ export default function CoursesPage() {
   return (
     <div className="container">
       <h1>Courses Page</h1>
-      {notification && <p style={{ color: 'blue' }}>{notification}</p>}
+      {notification && <p style={{ color: 'white' }}>{notification}</p>}
       <input
         type="text"
         placeholder="Filter courses"

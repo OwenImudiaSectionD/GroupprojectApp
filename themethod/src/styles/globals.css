@@ -72,6 +72,20 @@ footer p {
   border-radius: 10px;
   }
 
+.containerWide {
+  max-width: 1000px;
+  margin: 20px auto;
+  background-color: #1A1A1A;
+  padding: 1rem;
+  border-radius: 10px;
+}
+
+.containerWide h1 {
+  text-align: center;
+  margin-bottom: 1.5rem;
+  font-size: 50px;
+}
+
 .container h1 {
   text-align: center;
   margin-bottom: 1.5rem;

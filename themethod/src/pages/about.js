@@ -1,8 +1,8 @@
 export default function AboutUs() {
   return(
-    <>
-       <h1>About Us Page</h1>
-    </>
+    <div className="containerWide">
+      <h1>About Us</h1>
+    </div>
   )
   }
   
